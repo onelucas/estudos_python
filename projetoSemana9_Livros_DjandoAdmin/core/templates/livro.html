@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livro</title>
+</head>
+<body>
+    <h1>Detalhes do Livro</h1>
+
+    <h2> ID: {{ livro.id}}</h2>
+    <h2> Titulo: {{ livro.titulo}}</h2>
+    <h2> Preço: {{ livro.preco}}</h2>
+    <h2> Data Publicação: {{ livro.data_publicacao}}</h2>
+    <h2> Genêro: {{ livro.genero}}</h2>
+    <h2> Estoque: {{ livro.estoque}}</h2>
+
+    <form method="POST" action="{%url 'apagar_livro' livro.id %}">
+        {% csrf_token %}
+        <input type="submit" name="botao-apagar" value="Apagar Livro">
+    </form>
+
+</body>
+</html>
