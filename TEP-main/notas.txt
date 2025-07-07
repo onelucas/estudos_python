@@ -1,0 +1,17 @@
+Rodar sistema: 
+//entrar na pasta - cd semana9
+//rodar o sistema - python manage.py runserver
+//instalar biblioteca do pip python - pip install tzdata
+//copiar/colar o - python.exe -m pip install --upgrade pip
+//rodar novamente
+// cntrl + c no http
+//atualizações - make migrate
+
+Download no git: 
+por gitdesktop ou 
+//baixar GIT no pc
+// abrir prompt do git e digitar - git clone
+
+//
+
+
